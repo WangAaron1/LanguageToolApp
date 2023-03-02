@@ -22,9 +22,9 @@ namespace AutoDeployExcelDataForDesigner
 
         public int ActivityLatestID = 0;
         public int HasDeployFuncs = 1;
-        public DateTime ActivityTimeStart;
-        public DateTime ActivityTimeEnd;
-        public DateTime ActivityTimeNextEnd;
+        public DateTime ActivityTimeStart { get; set; }
+        public DateTime ActivityTimeEnd { get; set; }
+        public DateTime ActivityTimeNextEnd { get; set; }
 
 
         public static BattlePassFrame Instance;
@@ -331,7 +331,7 @@ namespace AutoDeployExcelDataForDesigner
         }
         private void Btn_Deploy_Click(object sender, EventArgs e)
         {
-            if (HeroID.Text == "" || BPHeroSkinID.Text == "" || FunitureID.Text == "" || HeadIconIDBox.Text == "" || InfoPageIDBox.Text == "" || StartTimeBox.Text == "" || EndTimeBox.Text == "")
+            if (HeroID.Text == "" || BPHeroSkinID.Text == "" || FunitureID.Text == "" || HeadIconIDBox.Text == "" || InfoPageIDBox.Text == "")
             {
                 MessageBox.Show("请先确保所有ID填写正确！");
                 return;

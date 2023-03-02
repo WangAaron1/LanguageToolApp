@@ -85,5 +85,10 @@ public partial class MonthSelectMode : UIUserControl
     {
 
     }
+
+    private void MonthSelectMode_Click(object sender, EventArgs e)
+    {
+
+    }
 }
 

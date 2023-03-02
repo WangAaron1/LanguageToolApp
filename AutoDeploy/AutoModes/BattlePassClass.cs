@@ -129,13 +129,14 @@ namespace AutoDeployExcelDataForDesigner.Scripts.AutoModes
             data[actidCol] = Convert.ToInt32(data[actidCol]) + 1;
 
             //StartTime
-            if (BattlePassFrame.Instance == null) return;
-            data[startTimeCol1] = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeStart);
-            data[startTimeCol2] = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeStart);
+            var startTimeMark = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeStart);
+            var endTimeMark = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeEnd);
+            data[startTimeCol1] = startTimeMark;
+            data[startTimeCol2] = startTimeMark;
 
             //EndTime
-            data[endTimeCol1] = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeEnd);
-            data[endTimeCol2] = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeEnd);
+            data[endTimeCol1] = endTimeMark;
+            data[endTimeCol2] = endTimeMark;
 
             var endTime = battlePassFrame.ActivityTimeEnd;
             var startTime = battlePassFrame.ActivityTimeStart;

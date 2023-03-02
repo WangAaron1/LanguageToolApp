@@ -105,8 +105,6 @@ namespace AutoDeployExcelDataForDesigner
                     return;
                 }
 
-
-
                 int functionCount = DeployActions.Count;
 
                 for (int t = 0; t < rowDatas.Count; t++)

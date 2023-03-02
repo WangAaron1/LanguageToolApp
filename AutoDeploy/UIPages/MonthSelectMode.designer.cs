@@ -106,6 +106,7 @@
             this.Size = new System.Drawing.Size(380, 232);
             this.Style = Sunny.UI.UIStyle.Custom;
             this.Load += new System.EventHandler(this.MonthControler_Load);
+            this.Click += new System.EventHandler(this.MonthSelectMode_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 

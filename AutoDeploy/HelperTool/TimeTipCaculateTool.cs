@@ -24,6 +24,7 @@ namespace HelperTool
         public static long DataTimeToTimestamp(DateTime dateTime)
         {
             long convertTime = (long)(dateTime - new DateTime(1970, 1, 1, 8, 00, 00)).TotalSeconds;
+            if (convertTime <= 0) { convertTime = -1; }
             return convertTime;
         }
 
