@@ -375,5 +375,10 @@ namespace AutoDeployExcelDataForDesigner
         {
             ExcelPathConst.DisposeAllExcel();
         }
+
+        private void BattlePassFrame_Initialize(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -57,6 +57,7 @@ namespace AutoDeployExcelDataForDesigner
             SkinTip.AutoFillInputArea();
             textBox1.AutoFillInputArea();
 
+            //
             InitDataGridView();
         }
 
@@ -84,6 +85,7 @@ namespace AutoDeployExcelDataForDesigner
 
             //列的数据可以插入换行的
             Skindatas.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithAutoHeaderText;
+
         }
 
 
@@ -149,10 +151,8 @@ namespace AutoDeployExcelDataForDesigner
 
                 if (MessageBox.Show("配置完成", "ok") == DialogResult.OK)
                 {
-                    Instance = null;
-                    Close();
+                    RegisterFunctions();
                     SVN.OpenExcelPath();
-
                 }
             }
             catch (Exception ce)

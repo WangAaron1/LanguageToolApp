@@ -38,12 +38,6 @@ namespace AutoDeployExcelDataForDesigner
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Skindatas = new Sunny.UI.UIDataGridView();
-            this.HeroIDIndex = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SkinBoxTextWithEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SkinDesBox = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HaveTheEx = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.live2dLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.achieve_des = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DeployButton = new System.Windows.Forms.Button();
             this.SkinBoxName = new System.Windows.Forms.TextBox();
             this.HeroIDlabel = new System.Windows.Forms.Label();
@@ -54,6 +48,12 @@ namespace AutoDeployExcelDataForDesigner
             this.label2 = new System.Windows.Forms.Label();
             this.SkinTip = new System.Windows.Forms.TextBox();
             this.monthSelectMode1 = new MonthSelectMode();
+            this.HeroIDIndex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SkinBoxTextWithEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SkinDesBox = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HaveTheEx = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.live2dLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.achieve_des = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.Skindatas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,6 +94,7 @@ namespace AutoDeployExcelDataForDesigner
             this.Skindatas.Location = new System.Drawing.Point(12, 65);
             this.Skindatas.Name = "Skindatas";
             this.Skindatas.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.Skindatas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
             dataGridViewCellStyle5.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -107,6 +108,7 @@ namespace AutoDeployExcelDataForDesigner
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.Skindatas.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.Skindatas.RowTemplate.Height = 25;
             this.Skindatas.ScrollBarBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
@@ -119,49 +121,6 @@ namespace AutoDeployExcelDataForDesigner
             this.Skindatas.TabIndex = 0;
             this.Skindatas.ZoomScaleRect = new System.Drawing.Rectangle(0, 0, 0, 0);
             this.Skindatas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // HeroIDIndex
-            // 
-            this.HeroIDIndex.HeaderText = "英雄ID";
-            this.HeroIDIndex.Name = "HeroIDIndex";
-            // 
-            // SkinBoxTextWithEN
-            // 
-            this.SkinBoxTextWithEN.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.SkinBoxTextWithEN.HeaderText = "皮肤包装名称ZH_EN";
-            this.SkinBoxTextWithEN.Name = "SkinBoxTextWithEN";
-            this.SkinBoxTextWithEN.ToolTipText = "如果有英文可以加_(ZH_EN)";
-            this.SkinBoxTextWithEN.Width = 181;
-            // 
-            // SkinDesBox
-            // 
-            this.SkinDesBox.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SkinDesBox.DefaultCellStyle = dataGridViewCellStyle3;
-            this.SkinDesBox.HeaderText = "皮肤描述包装";
-            this.SkinDesBox.Name = "SkinDesBox";
-            // 
-            // HaveTheEx
-            // 
-            this.HaveTheEx.FalseValue = "false";
-            this.HaveTheEx.HeaderText = "必杀技动画";
-            this.HaveTheEx.IndeterminateValue = "false";
-            this.HaveTheEx.Name = "HaveTheEx";
-            this.HaveTheEx.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HaveTheEx.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.HaveTheEx.TrueValue = "true";
-            // 
-            // live2dLevel
-            // 
-            this.live2dLevel.HeaderText = "Live2D等级";
-            this.live2dLevel.Name = "live2dLevel";
-            // 
-            // achieve_des
-            // 
-            this.achieve_des.HeaderText = "获取方式(默认不填)";
-            this.achieve_des.Name = "achieve_des";
-            this.achieve_des.ToolTipText = "默认为空来着";
-            this.achieve_des.Width = 140;
             // 
             // DeployButton
             // 
@@ -263,15 +222,63 @@ namespace AutoDeployExcelDataForDesigner
             this.monthSelectMode1.Margin = new System.Windows.Forms.Padding(0);
             this.monthSelectMode1.MinimumSize = new System.Drawing.Size(1, 1);
             this.monthSelectMode1.Name = "monthSelectMode1";
-            this.monthSelectMode1.RectColor = System.Drawing.Color.White;
-            this.monthSelectMode1.RectDisableColor = System.Drawing.Color.White;
+            this.monthSelectMode1.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
             this.monthSelectMode1.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.monthSelectMode1.Size = new System.Drawing.Size(427, 224);
-            this.monthSelectMode1.Style = Sunny.UI.UIStyle.Custom;
+            this.monthSelectMode1.Style = Sunny.UI.UIStyle.Gray;
             this.monthSelectMode1.TabIndex = 22;
             this.monthSelectMode1.Text = "monthSelectMode1";
             this.monthSelectMode1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.monthSelectMode1.ZoomScaleRect = new System.Drawing.Rectangle(0, 0, 0, 0);
+            // 
+            // HeroIDIndex
+            // 
+            this.HeroIDIndex.HeaderText = "英雄ID";
+            this.HeroIDIndex.Name = "HeroIDIndex";
+            this.HeroIDIndex.Width = 83;
+            // 
+            // SkinBoxTextWithEN
+            // 
+            this.SkinBoxTextWithEN.HeaderText = "皮肤包装名称ZH_EN";
+            this.SkinBoxTextWithEN.Name = "SkinBoxTextWithEN";
+            this.SkinBoxTextWithEN.ToolTipText = "如果有英文可以加_(ZH_EN)";
+            this.SkinBoxTextWithEN.Width = 181;
+            // 
+            // SkinDesBox
+            // 
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SkinDesBox.DefaultCellStyle = dataGridViewCellStyle3;
+            this.SkinDesBox.FillWeight = 120F;
+            this.SkinDesBox.HeaderText = "皮肤描述包装               ";
+            this.SkinDesBox.MinimumWidth = 11;
+            this.SkinDesBox.Name = "SkinDesBox";
+            this.SkinDesBox.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.SkinDesBox.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.SkinDesBox.Width = 205;
+            // 
+            // HaveTheEx
+            // 
+            this.HaveTheEx.FalseValue = "false";
+            this.HaveTheEx.HeaderText = "必杀技动画";
+            this.HaveTheEx.IndeterminateValue = "false";
+            this.HaveTheEx.Name = "HaveTheEx";
+            this.HaveTheEx.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HaveTheEx.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.HaveTheEx.TrueValue = "true";
+            this.HaveTheEx.Width = 114;
+            // 
+            // live2dLevel
+            // 
+            this.live2dLevel.HeaderText = "Live2D等级";
+            this.live2dLevel.Name = "live2dLevel";
+            this.live2dLevel.Width = 116;
+            // 
+            // achieve_des
+            // 
+            this.achieve_des.HeaderText = "获取方式(默认不填)";
+            this.achieve_des.Name = "achieve_des";
+            this.achieve_des.ToolTipText = "默认为空来着";
+            this.achieve_des.Width = 172;
             // 
             // SkinFrame
             // 
@@ -314,12 +321,12 @@ namespace AutoDeployExcelDataForDesigner
         public TextBox textBox1;
         public Label label2;
         public TextBox SkinTip;
-        public DataGridViewTextBoxColumn HeroIDIndex;
-        public DataGridViewTextBoxColumn SkinBoxTextWithEN;
-        public DataGridViewTextBoxColumn SkinDesBox;
-        public DataGridViewCheckBoxColumn HaveTheEx;
-        public DataGridViewTextBoxColumn live2dLevel;
-        public DataGridViewTextBoxColumn achieve_des;
         public MonthSelectMode monthSelectMode1;
+        private DataGridViewTextBoxColumn HeroIDIndex;
+        private DataGridViewTextBoxColumn SkinBoxTextWithEN;
+        private DataGridViewTextBoxColumn SkinDesBox;
+        private DataGridViewCheckBoxColumn HaveTheEx;
+        private DataGridViewTextBoxColumn live2dLevel;
+        private DataGridViewTextBoxColumn achieve_des;
     }
 }

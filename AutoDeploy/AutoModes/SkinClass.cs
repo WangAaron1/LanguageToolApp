@@ -8,6 +8,13 @@ namespace AutoDeployExcelDataForDesigner.Scripts.AutoModes
     {
         static int LatestSkinID;
         static string skinName_ZH;
+
+        public static string CheckDuplicate(int id)
+        {
+            return string.Empty;
+        }
+
+
         public static void DeploySkinData(int _heroID, string skinName, string skinDes, string __, string ___, int live2Level, bool haveMovie)
         {
             string[] skinName_ZHEN = skinName.Split('_');
@@ -88,7 +95,6 @@ namespace AutoDeployExcelDataForDesigner.Scripts.AutoModes
             int newestThemeData = themeDatas[themeDatas.Count - 1][0].ToInt32() + 1;
 
             ///主题 跟着Theme表的ID走
-
             themedata[themeHeader["id"]] = newestThemeData;
             themedata[themeHeader["name"]] = SkinFrame.Instance.SkinBoxName.Text;
             themedata[themeHeader["pic"]] = "SkinTheme" + themedata[0].ToInt32().ToString();
@@ -165,10 +171,8 @@ namespace AutoDeployExcelDataForDesigner.Scripts.AutoModes
             {
                 needSkinID += $"_{skinIDs[i]}";
             }
-
             ExcelHelper.SetCell(needSkinID, heroData.index, heroHeader["skin"] + 1, ExcelPathConst.e_Herodata.WorkSheets["hero_data"], ExcelPathConst.e_Herodata.PathInfo, ExcelPathConst.e_Herodata.Package);
         }
-
 
         public static void DeployShopData(int _heroID, string skinName, string skinDes, string ___, string _____, int ______, bool ____________)
         {

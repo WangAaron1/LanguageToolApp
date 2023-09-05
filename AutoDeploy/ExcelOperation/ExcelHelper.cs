@@ -34,8 +34,9 @@ namespace HelperTool
                 var bytes = File.ReadAllBytes(path);
                 if (bytes.Length == 0)
                 {
-                    return (new ExcelData(), "Excel 没有数据");
+                    return (new ExcelData(), $"{fileInfo.Name} Excel 没有数据");
                 }
+
                 ExcelPackage targetPackage = new ExcelPackage(fileInfo, true);
                 ExcelWorksheets targetSheets = targetPackage.Workbook.Worksheets;
                 return (new ExcelData

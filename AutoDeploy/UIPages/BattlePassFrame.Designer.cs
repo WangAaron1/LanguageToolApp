@@ -71,7 +71,7 @@ namespace AutoDeployExcelDataForDesigner
             // monthCalendar1
             // 
             this.monthCalendar1.BackColor = System.Drawing.Color.Aqua;
-            this.monthCalendar1.Location = new System.Drawing.Point(11, 289);
+            this.monthCalendar1.Location = new System.Drawing.Point(11, 275);
             this.monthCalendar1.Margin = new System.Windows.Forms.Padding(0);
             this.monthCalendar1.MaxSelectionCount = 1111;
             this.monthCalendar1.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
@@ -151,7 +151,7 @@ namespace AutoDeployExcelDataForDesigner
             // BPHeroSkinID
             // 
             this.BPHeroSkinID.BackColor = System.Drawing.Color.White;
-            this.BPHeroSkinID.Location = new System.Drawing.Point(11, 133);
+            this.BPHeroSkinID.Location = new System.Drawing.Point(11, 119);
             this.BPHeroSkinID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BPHeroSkinID.Name = "BPHeroSkinID";
             this.BPHeroSkinID.Size = new System.Drawing.Size(83, 29);
@@ -161,7 +161,7 @@ namespace AutoDeployExcelDataForDesigner
             // BPSkinLabel
             // 
             this.BPSkinLabel.AutoSize = true;
-            this.BPSkinLabel.Location = new System.Drawing.Point(7, 105);
+            this.BPSkinLabel.Location = new System.Drawing.Point(7, 91);
             this.BPSkinLabel.Name = "BPSkinLabel";
             this.BPSkinLabel.Size = new System.Drawing.Size(59, 21);
             this.BPSkinLabel.TabIndex = 12;
@@ -170,7 +170,7 @@ namespace AutoDeployExcelDataForDesigner
             // HeadIconIDLabel
             // 
             this.HeadIconIDLabel.AutoSize = true;
-            this.HeadIconIDLabel.Location = new System.Drawing.Point(375, 105);
+            this.HeadIconIDLabel.Location = new System.Drawing.Point(375, 91);
             this.HeadIconIDLabel.Name = "HeadIconIDLabel";
             this.HeadIconIDLabel.Size = new System.Drawing.Size(58, 21);
             this.HeadIconIDLabel.TabIndex = 14;
@@ -179,7 +179,7 @@ namespace AutoDeployExcelDataForDesigner
             // FurnitureIDLabel
             // 
             this.FurnitureIDLabel.AutoSize = true;
-            this.FurnitureIDLabel.Location = new System.Drawing.Point(195, 105);
+            this.FurnitureIDLabel.Location = new System.Drawing.Point(195, 91);
             this.FurnitureIDLabel.Name = "FurnitureIDLabel";
             this.FurnitureIDLabel.Size = new System.Drawing.Size(42, 21);
             this.FurnitureIDLabel.TabIndex = 15;
@@ -188,7 +188,7 @@ namespace AutoDeployExcelDataForDesigner
             // InfoPageIDLabel
             // 
             this.InfoPageIDLabel.AutoSize = true;
-            this.InfoPageIDLabel.Location = new System.Drawing.Point(564, 105);
+            this.InfoPageIDLabel.Location = new System.Drawing.Point(564, 91);
             this.InfoPageIDLabel.Name = "InfoPageIDLabel";
             this.InfoPageIDLabel.Size = new System.Drawing.Size(58, 21);
             this.InfoPageIDLabel.TabIndex = 16;
@@ -197,7 +197,7 @@ namespace AutoDeployExcelDataForDesigner
             // FunitureID
             // 
             this.FunitureID.BackColor = System.Drawing.Color.White;
-            this.FunitureID.Location = new System.Drawing.Point(199, 133);
+            this.FunitureID.Location = new System.Drawing.Point(199, 119);
             this.FunitureID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FunitureID.Name = "FunitureID";
             this.FunitureID.Size = new System.Drawing.Size(72, 29);
@@ -207,7 +207,7 @@ namespace AutoDeployExcelDataForDesigner
             // HeadIconIDBox
             // 
             this.HeadIconIDBox.BackColor = System.Drawing.Color.White;
-            this.HeadIconIDBox.Location = new System.Drawing.Point(379, 133);
+            this.HeadIconIDBox.Location = new System.Drawing.Point(379, 119);
             this.HeadIconIDBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HeadIconIDBox.Name = "HeadIconIDBox";
             this.HeadIconIDBox.Size = new System.Drawing.Size(84, 29);
@@ -217,7 +217,7 @@ namespace AutoDeployExcelDataForDesigner
             // InfoPageIDBox
             // 
             this.InfoPageIDBox.BackColor = System.Drawing.Color.White;
-            this.InfoPageIDBox.Location = new System.Drawing.Point(568, 133);
+            this.InfoPageIDBox.Location = new System.Drawing.Point(568, 119);
             this.InfoPageIDBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.InfoPageIDBox.Name = "InfoPageIDBox";
             this.InfoPageIDBox.Size = new System.Drawing.Size(83, 29);
@@ -227,7 +227,7 @@ namespace AutoDeployExcelDataForDesigner
             // Btn_Deploy
             // 
             this.Btn_Deploy.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Btn_Deploy.Location = new System.Drawing.Point(623, 372);
+            this.Btn_Deploy.Location = new System.Drawing.Point(623, 358);
             this.Btn_Deploy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Deploy.Name = "Btn_Deploy";
             this.Btn_Deploy.Size = new System.Drawing.Size(116, 35);
@@ -239,7 +239,7 @@ namespace AutoDeployExcelDataForDesigner
             // FurnitureNameBox
             // 
             this.FurnitureNameBox.BackColor = System.Drawing.Color.White;
-            this.FurnitureNameBox.Location = new System.Drawing.Point(277, 133);
+            this.FurnitureNameBox.Location = new System.Drawing.Point(277, 119);
             this.FurnitureNameBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FurnitureNameBox.Name = "FurnitureNameBox";
             this.FurnitureNameBox.Size = new System.Drawing.Size(93, 29);
@@ -249,7 +249,7 @@ namespace AutoDeployExcelDataForDesigner
             // FurnitureNameLabel
             // 
             this.FurnitureNameLabel.AutoSize = true;
-            this.FurnitureNameLabel.Location = new System.Drawing.Point(273, 105);
+            this.FurnitureNameLabel.Location = new System.Drawing.Point(273, 91);
             this.FurnitureNameLabel.Name = "FurnitureNameLabel";
             this.FurnitureNameLabel.Size = new System.Drawing.Size(90, 21);
             this.FurnitureNameLabel.TabIndex = 22;
@@ -258,7 +258,7 @@ namespace AutoDeployExcelDataForDesigner
             // HeadIconNameBox
             // 
             this.HeadIconNameBox.BackColor = System.Drawing.Color.White;
-            this.HeadIconNameBox.Location = new System.Drawing.Point(469, 133);
+            this.HeadIconNameBox.Location = new System.Drawing.Point(469, 119);
             this.HeadIconNameBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HeadIconNameBox.Name = "HeadIconNameBox";
             this.HeadIconNameBox.Size = new System.Drawing.Size(93, 29);
@@ -268,7 +268,7 @@ namespace AutoDeployExcelDataForDesigner
             // HeadIconNameLabel
             // 
             this.HeadIconNameLabel.AutoSize = true;
-            this.HeadIconNameLabel.Location = new System.Drawing.Point(465, 105);
+            this.HeadIconNameLabel.Location = new System.Drawing.Point(465, 91);
             this.HeadIconNameLabel.Name = "HeadIconNameLabel";
             this.HeadIconNameLabel.Size = new System.Drawing.Size(90, 21);
             this.HeadIconNameLabel.TabIndex = 24;
@@ -277,7 +277,7 @@ namespace AutoDeployExcelDataForDesigner
             // BPSkinNameBox
             // 
             this.BPSkinNameBox.BackColor = System.Drawing.Color.White;
-            this.BPSkinNameBox.Location = new System.Drawing.Point(100, 133);
+            this.BPSkinNameBox.Location = new System.Drawing.Point(100, 119);
             this.BPSkinNameBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BPSkinNameBox.Name = "BPSkinNameBox";
             this.BPSkinNameBox.Size = new System.Drawing.Size(93, 29);
@@ -287,7 +287,7 @@ namespace AutoDeployExcelDataForDesigner
             // BPSkinNameLabel
             // 
             this.BPSkinNameLabel.AutoSize = true;
-            this.BPSkinNameLabel.Location = new System.Drawing.Point(96, 105);
+            this.BPSkinNameLabel.Location = new System.Drawing.Point(96, 91);
             this.BPSkinNameLabel.Name = "BPSkinNameLabel";
             this.BPSkinNameLabel.Size = new System.Drawing.Size(58, 21);
             this.BPSkinNameLabel.TabIndex = 26;
@@ -296,7 +296,7 @@ namespace AutoDeployExcelDataForDesigner
             // InfoPageNameBox
             // 
             this.InfoPageNameBox.BackColor = System.Drawing.Color.White;
-            this.InfoPageNameBox.Location = new System.Drawing.Point(657, 133);
+            this.InfoPageNameBox.Location = new System.Drawing.Point(657, 119);
             this.InfoPageNameBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.InfoPageNameBox.Name = "InfoPageNameBox";
             this.InfoPageNameBox.Size = new System.Drawing.Size(93, 29);
@@ -306,7 +306,7 @@ namespace AutoDeployExcelDataForDesigner
             // InfoPageNameLabel
             // 
             this.InfoPageNameLabel.AutoSize = true;
-            this.InfoPageNameLabel.Location = new System.Drawing.Point(653, 105);
+            this.InfoPageNameLabel.Location = new System.Drawing.Point(653, 91);
             this.InfoPageNameLabel.Name = "InfoPageNameLabel";
             this.InfoPageNameLabel.Size = new System.Drawing.Size(90, 21);
             this.InfoPageNameLabel.TabIndex = 28;
@@ -314,7 +314,7 @@ namespace AutoDeployExcelDataForDesigner
             // 
             // BPSkinDesBox
             // 
-            this.BPSkinDesBox.Location = new System.Drawing.Point(11, 189);
+            this.BPSkinDesBox.Location = new System.Drawing.Point(11, 175);
             this.BPSkinDesBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BPSkinDesBox.Multiline = true;
             this.BPSkinDesBox.Name = "BPSkinDesBox";
@@ -326,7 +326,7 @@ namespace AutoDeployExcelDataForDesigner
             // BPSkinDesLabel
             // 
             this.BPSkinDesLabel.AutoSize = true;
-            this.BPSkinDesLabel.Location = new System.Drawing.Point(11, 166);
+            this.BPSkinDesLabel.Location = new System.Drawing.Point(11, 152);
             this.BPSkinDesLabel.Name = "BPSkinDesLabel";
             this.BPSkinDesLabel.Size = new System.Drawing.Size(126, 21);
             this.BPSkinDesLabel.TabIndex = 31;
@@ -335,7 +335,7 @@ namespace AutoDeployExcelDataForDesigner
             // FurnitureDesLabel
             // 
             this.FurnitureDesLabel.AutoSize = true;
-            this.FurnitureDesLabel.Location = new System.Drawing.Point(199, 166);
+            this.FurnitureDesLabel.Location = new System.Drawing.Point(199, 152);
             this.FurnitureDesLabel.Name = "FurnitureDesLabel";
             this.FurnitureDesLabel.Size = new System.Drawing.Size(106, 21);
             this.FurnitureDesLabel.TabIndex = 33;
@@ -343,7 +343,7 @@ namespace AutoDeployExcelDataForDesigner
             // 
             // FurnitureDesBox
             // 
-            this.FurnitureDesBox.Location = new System.Drawing.Point(199, 189);
+            this.FurnitureDesBox.Location = new System.Drawing.Point(199, 175);
             this.FurnitureDesBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FurnitureDesBox.Multiline = true;
             this.FurnitureDesBox.Name = "FurnitureDesBox";
@@ -355,7 +355,7 @@ namespace AutoDeployExcelDataForDesigner
             // HeadIconDesLabel
             // 
             this.HeadIconDesLabel.AutoSize = true;
-            this.HeadIconDesLabel.Location = new System.Drawing.Point(375, 166);
+            this.HeadIconDesLabel.Location = new System.Drawing.Point(375, 152);
             this.HeadIconDesLabel.Name = "HeadIconDesLabel";
             this.HeadIconDesLabel.Size = new System.Drawing.Size(122, 21);
             this.HeadIconDesLabel.TabIndex = 35;
@@ -363,7 +363,7 @@ namespace AutoDeployExcelDataForDesigner
             // 
             // HeadIconDesBox
             // 
-            this.HeadIconDesBox.Location = new System.Drawing.Point(375, 190);
+            this.HeadIconDesBox.Location = new System.Drawing.Point(375, 176);
             this.HeadIconDesBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HeadIconDesBox.Multiline = true;
             this.HeadIconDesBox.Name = "HeadIconDesBox";
@@ -375,7 +375,7 @@ namespace AutoDeployExcelDataForDesigner
             // InfoPageDesLabel
             // 
             this.InfoPageDesLabel.AutoSize = true;
-            this.InfoPageDesLabel.Location = new System.Drawing.Point(568, 165);
+            this.InfoPageDesLabel.Location = new System.Drawing.Point(568, 151);
             this.InfoPageDesLabel.Name = "InfoPageDesLabel";
             this.InfoPageDesLabel.Size = new System.Drawing.Size(122, 21);
             this.InfoPageDesLabel.TabIndex = 37;
@@ -383,7 +383,7 @@ namespace AutoDeployExcelDataForDesigner
             // 
             // InfoPageDesBox
             // 
-            this.InfoPageDesBox.Location = new System.Drawing.Point(568, 189);
+            this.InfoPageDesBox.Location = new System.Drawing.Point(568, 175);
             this.InfoPageDesBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.InfoPageDesBox.Multiline = true;
             this.InfoPageDesBox.Name = "InfoPageDesBox";
@@ -413,7 +413,7 @@ namespace AutoDeployExcelDataForDesigner
             // Btn_GenID
             // 
             this.Btn_GenID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Btn_GenID.Location = new System.Drawing.Point(623, 372);
+            this.Btn_GenID.Location = new System.Drawing.Point(623, 358);
             this.Btn_GenID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_GenID.Name = "Btn_GenID";
             this.Btn_GenID.Size = new System.Drawing.Size(116, 35);
@@ -469,6 +469,7 @@ namespace AutoDeployExcelDataForDesigner
             this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
             this.Style = Sunny.UI.UIStyle.Gray;
             this.Text = "BattlePassFrame";
+            this.Initialize += new System.EventHandler(this.BattlePassFrame_Initialize);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BattlePassFrame_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BattlePassFrame_FormClosed);
             this.Load += new System.EventHandler(this.BattlePassFrame_Load);

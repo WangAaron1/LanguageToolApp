@@ -33,6 +33,7 @@
             this.Btn_Cancel = new Sunny.UI.UISymbolButton();
             this.Btn_Confirm = new Sunny.UI.UISymbolButton();
             this.Bro_ExcelPath = new System.Windows.Forms.FolderBrowserDialog();
+            this.uiLabel1 = new Sunny.UI.UILabel();
             this.SuspendLayout();
             // 
             // tex_excelPath
@@ -83,7 +84,7 @@
             this.Btn_Cancel.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.Btn_Cancel.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.Btn_Cancel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Btn_Cancel.Location = new System.Drawing.Point(57, 120);
+            this.Btn_Cancel.Location = new System.Drawing.Point(57, 127);
             this.Btn_Cancel.MinimumSize = new System.Drawing.Size(1, 1);
             this.Btn_Cancel.Name = "Btn_Cancel";
             this.Btn_Cancel.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
@@ -108,7 +109,7 @@
             this.Btn_Confirm.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.Btn_Confirm.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.Btn_Confirm.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Btn_Confirm.Location = new System.Drawing.Point(286, 120);
+            this.Btn_Confirm.Location = new System.Drawing.Point(286, 127);
             this.Btn_Confirm.MinimumSize = new System.Drawing.Size(1, 1);
             this.Btn_Confirm.Name = "Btn_Confirm";
             this.Btn_Confirm.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
@@ -123,11 +124,24 @@
             this.Btn_Confirm.ZoomScaleRect = new System.Drawing.Rectangle(0, 0, 0, 0);
             this.Btn_Confirm.Click += new System.EventHandler(this.Btn_Confirm_Click);
             // 
+            // uiLabel1
+            // 
+            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel1.Location = new System.Drawing.Point(33, 175);
+            this.uiLabel1.Name = "uiLabel1";
+            this.uiLabel1.Size = new System.Drawing.Size(340, 30);
+            this.uiLabel1.Style = Sunny.UI.UIStyle.Gray;
+            this.uiLabel1.TabIndex = 5;
+            this.uiLabel1.Text = "注:请将Excel保持在最新状态后,使用此工具。\r\n\r\n";
+            this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.uiLabel1.ZoomScaleRect = new System.Drawing.Rectangle(0, 0, 0, 0);
+            // 
             // IntroLogin
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(460, 186);
+            this.ClientSize = new System.Drawing.Size(460, 205);
             this.ControlBoxFillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.Controls.Add(this.uiLabel1);
             this.Controls.Add(this.Btn_Confirm);
             this.Controls.Add(this.Btn_Cancel);
             this.Controls.Add(this.Tex_ExcelPathSetting);
@@ -151,5 +165,6 @@
         public Sunny.UI.UISymbolButton Btn_Cancel;
         public Sunny.UI.UISymbolButton Btn_Confirm;
         private System.Windows.Forms.FolderBrowserDialog Bro_ExcelPath;
+        public Sunny.UI.UILabel uiLabel1;
     }
 }

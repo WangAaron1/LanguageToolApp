@@ -132,10 +132,10 @@ namespace AutoDeployExcelDataForDesigner.Scripts.AutoModes
             var startTimeMark = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeStart);
             var endTimeMark = TimeTipCaculateTool.DataTimeToTimestamp(battlePassFrame.ActivityTimeEnd);
             data[startTimeCol1] = startTimeMark;
-            data[startTimeCol2] = startTimeMark;
+            data[startTimeCol2] = endTimeMark;
 
             //EndTime
-            data[endTimeCol1] = endTimeMark;
+            data[endTimeCol1] = startTimeMark;
             data[endTimeCol2] = endTimeMark;
 
             var endTime = battlePassFrame.ActivityTimeEnd;
