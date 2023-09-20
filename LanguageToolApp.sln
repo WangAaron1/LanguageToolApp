@@ -4,8 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageToolApp", "LanguageToolApp\LanguageToolApp.csproj", "{1FD6E6C8-63DA-46AC-BF6C-DA7441530A20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CFA1876A-1E0F-42B9-9EFF-1F0C2FB6214D} = {CFA1876A-1E0F-42B9-9EFF-1F0C2FB6214D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApkPushTool", "ApkPushTool\ApkPushTool.csproj", "{3C27D66E-6CB5-43B5-8EA7-FAD23A7367F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CFA1876A-1E0F-42B9-9EFF-1F0C2FB6214D} = {CFA1876A-1E0F-42B9-9EFF-1F0C2FB6214D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy", "AutoDeploy\AutoDeploy.csproj", "{CFA1876A-1E0F-42B9-9EFF-1F0C2FB6214D}"
 EndProject
