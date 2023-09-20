@@ -64,7 +64,7 @@ namespace ADBPushApkTool
             // 
             // Devices
             // 
-            this.Devices.DisplayMember = "未检测到头为sunborn的包体";
+            this.Devices.DisplayMember = "未检测到包体";
             this.Devices.FormattingEnabled = true;
             this.Devices.Items.AddRange(new object[] {
             "未检测到设备"});
@@ -73,7 +73,7 @@ namespace ADBPushApkTool
             this.Devices.Name = "Devices";
             this.Devices.Size = new System.Drawing.Size(179, 29);
             this.Devices.TabIndex = 6;
-            this.Devices.ValueMember = "未检测到头为sunborn的包体";
+            this.Devices.ValueMember = "未检测到包体";
             this.Devices.SelectedIndexChanged += new System.EventHandler(this.Devices_SelectedIndexChanged);
             // 
             // selectRAR

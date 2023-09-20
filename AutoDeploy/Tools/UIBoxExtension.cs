@@ -33,6 +33,9 @@ namespace HelperTool
             textBox.GotFocus += fill.GotFocus_CustomText_sunny;
             textBox.LostFocus += fill.LostFocus_CustomText_sunny;
         }
+
+
+
         public static void AutoFillInputArea(this TextBox textBox)
         {
             TextBoxAutoFill fill = new TextBoxAutoFill();

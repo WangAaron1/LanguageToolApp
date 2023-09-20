@@ -12,7 +12,7 @@ namespace ADBPushApkTool
 {
     public partial class ApkPush_Tool : UIForm
     {
-        protected string noBundle = "未检测到头为sunborn的包体";
+        protected string noBundle = "未检测到包体";
         protected string noDevice = "未检测到设备";
         protected Thread back_Refresh;
         protected ThreadStart back_RefreshStart;
